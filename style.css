@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(27, 27, 27);
+}
+.logo{
+    
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo img{
+    object-fit: contain;
+    width: 20%;
+    height: 300%;
+    margin: 0px 2vw;
+
+}
+.navigation{
+    margin-right: 100px;
+    width: 40vw;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 200%;
+    transition: 0.3s;
+}
+.introduction{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.introduction img{
+    width: 90vw;
+    height: 90vh;
+    object-fit: contain;
+}
+.dancertext:hover{
+    color: black;
+}
+.socialtext:hover{
+    color: black;
+}
+.aboutus{
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutus h1{
+    font-size: 80pt;
+    font-weight: 800;
+    color: white;
+}
+.aboutus h2{
+    font-size: 30pt;
+    color: white;
+    font-weight: 400;
+}
+.aboutus2{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutus2 h1{
+    font-size: 80pt;
+    font-weight: 800;
+    color: white;
+}
+.dancer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dancer p{
+    font-size: 70pt;
+    font-weight: 800;
+    color: white;
+    
+}
+.dancerstext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    margin: 0px 50px;
+}
+.summary{
+    margin: 0px 30px;
+    background-color: rgb(15, 15, 15);
+    width: 85vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.social{
+    width: 100vw;
+    height: 70vh;
+}
+
+
+
+
+
+.summary-row{
+    width: 80vw;
+    height: auto;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.summary-img {
+    width: 25vw;
+    height: 30%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 10px solid white;
+}
+.summary-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.inner-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgba(17, 17, 17, 0.6),rgba(27, 27, 27,0.9));
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: 0.5s ease-out;
+}
+.inner-back span{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 10px 0px;
+}
+.inner-back h3{
+    font-size: 2vw;
+    color: white;
+}
+.inner-back p{
+    font-size: 1vw;
+}
+.summary-img:hover .inner-back{
+    transform: translateY(0);
+    opacity: 100%;
+}
+
+.social h1{
+    font-size: 80pt;
+    font-weight: 800;
+    color: white;
+}
+.social h2{
+    font-size: 25pt;
+    color: white;
+    font-weight: 400;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.med{
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.med a{
+    margin: 0px 10px;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 100%;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-decoration: none;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.mail i{
+    font-size: 30pt;
+    object-fit: cover;
+    transition: 0.3s;
+    color: white;
+
+}
+.cr{
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail:hover{
+    background-color: white;
+}
+.mail:hover i{
+    color: black;
+}

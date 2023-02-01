@@ -25,7 +25,7 @@ body{
 
 }
 .navigation{
-    margin-right: 100px;
+    align-items: center;
     width: 40vw;
     padding: 5px;
     display: flex;
@@ -99,7 +99,7 @@ body{
 
 }
 .dancer p{
-    font-size: 70pt;
+    font-size: 4vw;
     font-weight: 800;
     color: white;
     
@@ -107,6 +107,7 @@ body{
 .dancerstext{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
     height: 90vh;
     margin: 0px 50px;

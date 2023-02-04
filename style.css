@@ -19,8 +19,8 @@ body{
 }
 .logo img{
     object-fit: contain;
-    width: 20%;
-    height: 300%;
+    width: 20vw;
+    height: 20vh;
     margin: 0px 2vw;
 
 }
@@ -35,7 +35,7 @@ body{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 600;
-    font-size: 200%;
+    font-size: 20pt;
     transition: 0.3s;
 }
 .introduction{
@@ -141,7 +141,7 @@ body{
 }
 .summary-img {
     width: 25vw;
-    height: 30%;
+    height: 30vh;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -247,4 +247,152 @@ body{
 }
 .mail:hover i{
     color: black;
+}
+@media screen and (max-width:576px){
+    .navigation{
+        align-items: center;
+        width: 50vw;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 17pt;
+        transition: 0.3s;
+    }
+    .aboutus{
+        width: 100vw;
+        height: 60vh;
+        background-color: rgb(15, 15, 15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutus h1{
+        font-size: 40pt;
+        font-weight: 800;
+        color: white;
+    }
+    .aboutus h2{
+        font-size: 20pt;
+        color: white;
+        font-weight: 400;
+    }
+    .dancer{
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .dancer p{
+        font-size: 40pt;
+        font-weight: 800;
+        color: white;
+        
+    }
+    .dancerstext{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 130vh;
+        margin: 0px 30px;
+    }
+    .summary{
+        margin: 0px 30px;
+        background-color: rgb(15, 15, 15);
+        width: 90vw;
+        height: 130vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .summary-img {
+        width: 50vw;
+        height: 20vh;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        border: 5px solid white;
+    }
+    .summary-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    .inner-back h3{
+        font-size: 5vw;
+        color: white;
+    }
+    .inner-back p{
+        font-size: 1vw;
+    }
+    .aboutus2{
+        width: 100vw;
+        height: 40vh;
+        background-color: rgb(15, 15, 15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutus2 h1{
+        font-size: 40pt;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        
+    }
+    .social h1{
+        font-size: 40pt;
+        font-weight: 800;
+        color: white;
+    }
+    .social h2{
+        font-size: 15pt;
+        color: white;
+        font-weight: 400;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .med{
+        width: 50vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .med a{
+        margin: 0px 10px;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 100%;
+        background-color: rgb(15, 15, 15);
+        color: white;
+        text-decoration: none;
+    }
+    .mail{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .mail i{
+        font-size: 30pt;
+        object-fit: cover;
+        transition: 0.3s;
+        color: white;
+    
+    }
 }
